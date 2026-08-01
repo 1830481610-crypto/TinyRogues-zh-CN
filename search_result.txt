@@ -1,0 +1,17 @@
+[诅咒之力] CLASS_DEPRIVED_ability_name: 诅咒之力
+[厄运] CLASS_DEPRIVED_skill_name: 厄运
+[灵魂收割者] CLASS_NECROMANCER_ability_name: 灵魂收割者
+[厄运] SKILL_JINX_name: 厄运
+
+=== NECROMANCER ===
+ability_name: 灵魂收割者
+skill_name: 召唤巫妖
+ability_desc: 你每拥有1点灵魂，你的同伴造成的伤害x1.01倍.
+(当前x1.01n)
+skill_desc: 在短时间内召唤一个强大的巫妖同伴.
+
+=== DEPRIVED ===
+ability_name: 诅咒之力
+skill_name: 厄运
+ability_desc: 你每拥有一点诅咒，都可以获得+10%力量,敏捷,智力的属性加成.
+skill_desc: 诅咒所有敌人，对它们施加永久的幽暗效果.或者将房间转化为诅咒房，并升级对应的奖励.

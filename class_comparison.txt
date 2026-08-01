@@ -1,0 +1,20 @@
+===== WIZARD =====
+class_desc: ​一位博学的法师，懂得如何利用身心的力量来施展强大的法术.
+ability_name: 智慧
+ability_desc: 在角色LV2,4,6级时+1 法力
+skill_name: 魔法之境
+skill_desc: 在原地创造一个魔法阵，站在上面时你将获得伤害Buff.这个Buff会根据你的法力而增强.
+
+===== SOLDIER =====
+class_desc: 即使面对最可怕的敌人，士兵依然有决心和勇气保护平民百姓.
+ability_name: 戒备
+ability_desc: 你的武器每有一级强化等级，获得+20%Debuffs效果.
+skill_name: 逮捕
+skill_desc: 逮捕一名敌人,施加一个Debuff,同时移除敌人的附魔效果.
+
+===== DEPRIVED =====
+class_desc: 一个野蛮的流浪汉，他抛弃了文明而去寻找归隐山林的家.
+ability_name: 诅咒之力
+ability_desc: 你每拥有一点诅咒，都可以获得+10%力量,敏捷,智力的属性加成.
+skill_name: 厄运
+skill_desc: 诅咒所有敌人，对它们施加永久的幽暗效果.或者将房间转化为诅咒房，并升级对应的奖励.
