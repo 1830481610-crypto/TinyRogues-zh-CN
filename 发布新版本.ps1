@@ -3,7 +3,7 @@
     [switch]$DryRun = $false,
     [switch]$SkipPush = $false
 )
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 Set-Location $PSScriptRoot
 
 $REPO = "1830481610-crypto/TinyRogues-zh-CN"
@@ -30,13 +30,13 @@ if ($staged) {
 } else {
     Write-Host "没有未提交的改动" -ForegroundColor Gray
 }
-if (-not $SkipPush) { git push *> $null }
+if (-not $SkipPush) { git push 2>$null }
 
 # ---------- 2. 确定版本号 ----------
 Write-Host "`n[2/6] 确定版本号..." -ForegroundColor Yellow
 if ($Version -eq "") {
     # auto increment from latest tag
-    git fetch --tags origin *> $null
+    git fetch --tags origin 2>$null
     $tags = @(git tag -l "v*" 2>$null)
     $lastTag = $tags | ForEach-Object {
         if ($_ -match '^v?(\d+)\.(\d+)\.(\d+)$') { [pscustomobject]@{ Tag=$_; V=[version]("$($Matches[1]).$($Matches[2]).$($Matches[3])") } }
