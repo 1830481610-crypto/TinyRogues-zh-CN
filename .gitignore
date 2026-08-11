@@ -47,3 +47,6 @@ Desktop.ini
 /switch_en_hot.bat
 /restore_cn.bat
 /restore_cn_hot.bat
+
+# ---- 调试用插件（ClassProbe 探测 DLL，与补丁效果无关）----
+/BepInEx/plugins/TinyRogues.ClassProbe.dll
