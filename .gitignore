@@ -50,3 +50,6 @@ Desktop.ini
 
 # ---- 调试用插件（ClassProbe 探测 DLL，与补丁效果无关）----
 /BepInEx/plugins/TinyRogues.ClassProbe.dll
+
+# ---- 调试插件 ClassProbe 的运行时输出（_Tmp* 诊断文件）----
+/BepInEx/_Tmp*.txt
