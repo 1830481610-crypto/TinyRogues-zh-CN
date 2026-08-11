@@ -181,9 +181,6 @@ Stacks decay one after another.=层数会依次衰减。
 Permanent=永久
 Taken=受到
 per =每个
-Instrument</color>=乐器</color>
-Echo</color>=回声</color>
-Necrosis</color>=坏死</color>
 
 |=|
 \|=|
