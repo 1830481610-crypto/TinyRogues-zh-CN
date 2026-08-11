@@ -1,0 +1,8 @@
+# 词典/文本文件：禁止换行符转换，保持字节原样（插件依赖原始 CRLF/LF）
+/BepInEx/plugins/TinyRogues.TmpFallback/*.txt -text
+/BepInEx/Translation/zh/Text/*.txt -text
+*.ini -text
+*.bat -text
+*.md -text
+*.cfg -text
+*.txt -text
