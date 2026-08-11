@@ -53,3 +53,6 @@ Desktop.ini
 
 # ---- 调试插件 ClassProbe 的运行时输出（_Tmp* 诊断文件）----
 /BepInEx/_Tmp*.txt
+
+# ---- 发布 zip（ASCII 名，v1.6.1 起）----
+/TinyRogues_zh_CN_*.zip
