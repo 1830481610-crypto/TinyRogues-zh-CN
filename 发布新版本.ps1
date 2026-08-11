@@ -14,7 +14,7 @@ Write-Host "============================================" -ForegroundColor Cyan
 
 # ---------- 0. 检查 gh 登录 ----------
 if (-not $DryRun) {
-    gh auth status 2>&1 | Out-Null
+    gh auth status *> $null
     if ($LASTEXITCODE -ne 0) { Write-Host "gh 未登录，请先 gh auth login" -ForegroundColor Red; exit 1 }
 }
 
@@ -30,13 +30,13 @@ if ($staged) {
 } else {
     Write-Host "没有未提交的改动" -ForegroundColor Gray
 }
-if (-not $SkipPush) { git push 2>&1 | Out-Null }
+if (-not $SkipPush) { git push *> $null }
 
 # ---------- 2. 确定版本号 ----------
 Write-Host "`n[2/6] 确定版本号..." -ForegroundColor Yellow
 if ($Version -eq "") {
     # auto increment from latest tag
-    git fetch --tags origin 2>&1 | Out-Null
+    git fetch --tags origin *> $null
     $tags = @(git tag -l "v*" 2>$null)
     $lastTag = $tags | ForEach-Object {
         if ($_ -match '^v?(\d+)\.(\d+)\.(\d+)$') { [pscustomobject]@{ Tag=$_; V=[version]("$($Matches[1]).$($Matches[2]).$($Matches[3])") } }
@@ -58,7 +58,7 @@ Write-Host "`n[3/6] 打 tag $Version ..." -ForegroundColor Yellow
 if (-not $DryRun) {
     git tag -a $Version -m "Tiny Rogues 汉化补丁 $Version"
     if ($LASTEXITCODE -ne 0) { Write-Host "tag 已存在或创建失败" -ForegroundColor Red; exit 1 }
-    git push origin $Version 2>&1 | Out-Null
+    git push origin $Version *> $null
     Write-Host ("tag $Version 已推送") -ForegroundColor Green
 } else {
     Write-Host ("[DryRun] 将创建 tag: " + $Version) -ForegroundColor Gray
