@@ -379,6 +379,7 @@ Lucky=幸运
 Attacks=攻击
 Attack=攻击
 Each Grants=每个提供
+Fear=恐惧
 Evades=闪避
 Buffs=增益
 Buff=增益
