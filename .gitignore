@@ -56,3 +56,20 @@ Desktop.ini
 
 # ---- 发布 zip（ASCII 名，v1.6.1 起）----
 /TinyRogues_zh_CN_*.zip
+
+# ---- 测试/诊断插件（仅汉化测试用，不随发布包/仓库分享；切纯净版时会被临时移走）----
+/BepInEx/plugins/TinyRogues.KeyCapture.dll
+/BepInEx/plugins/TinyRogues.ClassProbe.dll
+/BepInEx/plugins/天秤座 开局6钥匙炸弹金币/
+/BepInEx/plugins/天赋树可以点满全部69点/
+/BepInEx/plugins/开局100幸运/
+/BepInEx/plugins/开局100掉宝率/
+/BepInEx/plugins/开局100珍品率/
+/BepInEx/plugins/开局100诅咒/
+/BepInEx/plugins/开局4善良邪恶守序混乱/
+/BepInEx/plugins/无限刷新特性/
+# ---- 纯净/测试模式切换备份 ----
+/BepInEx/_pure_mode_backup/
+# ---- 纯净版切换脚本 ----
+/switch_pure.bat
+/restore_test.bat
