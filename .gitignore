@@ -32,3 +32,5 @@ Desktop.ini
 .DS_Store
 *.tmp
 *.swp
+# ---- 发布 zip（不进仓库，仅作为 Release 附件）----
+/TinyRogues_汉化补丁_*.zip
