@@ -38,6 +38,7 @@ if ($Version -eq "") {
     # auto increment from latest tag
     git fetch --tags origin 2>&1 | Out-Null
     $lastTag = git describe --tags --abbrev=0 2>$null
+    if ($LASTEXITCODE -ne 0) { $lastTag = $null }
     if ($lastTag -and $lastTag -match '^v?(\d+)\.(\d+)\.(\d+)$') {
         $maj=[int]$Matches[1]; $min=[int]$Matches[2]; $pat=[int]$Matches[3]
         $Version = "v$maj.$min.$($pat+1)"
