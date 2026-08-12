@@ -3672,7 +3672,7 @@ Power also increases effect of Debuffs.=力量也会增加减益效果。
 Power-Upgrade=能量升级
 Praetor Armor=执政官盔甲
 Praise the sovereign!=赞美主权！
-Pray at the sunlight altar?=在阳光祭坛祈祷？
+Pray at the sunlight altar?=在阳光神龛祈祷？
 Pray to the statue\nof the Goddess of Sin?=向罪恶女神像\n祈祷？
 Pre-0.2.8 Stamina Recovery=0.2.8 之前的精力恢复
 Precise (Weapon Enchantment Effect)=精准（武器附魔效果）
@@ -4506,7 +4506,7 @@ Tips For Adventurers 1/10\nDid you know, any time a little clover or skull icon\
 Tips For Adventurers 10/10\nDid you know, that attribute points\ngrant small bonuses to stats?\nStrength grants damage. Dexterity grants attack speed\nand Intelligence grants critical hit chance.=给冒险家的提示10/10\n你知道吗，属性点\n给属性带来少量加成？\n力量带来伤害。敏捷提供攻击速度\n，智力提供暴击率。
 Tips For Adventurers 2/10\nDid you know, proficiencies increase\nthe scaling of a weapon that scales\nwith that attribute type by one tier?=给冒险家的提示2/10\n你知道吗，熟练程度会增加\n武器的缩放比例\n与该属性类型的缩放比例？
 Tips For Adventurers 3/10\nDid you know, that it is said,\nthat machines are weak to bombs?=冒险家小贴士3/10\n你知道吗，据说\n机器对炸弹的抵抗力很弱？
-Tips For Adventurers 4/10\nDid you know, you can explode\nTreasure Chests, Shrines, Altars and\nSlot Machines with bombs?=冒险家小贴士 4/10\n你知道吗，你可以用炸弹爆炸\n宝箱、神殿、祭坛和\n老虎机？
+Tips For Adventurers 4/10\nDid you know, you can explode\nTreasure Chests, Shrines, Altars and\nSlot Machines with bombs?=冒险家小贴士 4/10\n你知道吗，你可以用炸弹爆炸\n宝箱、神殿、神龛和\n老虎机？
 Tips For Adventurers 5/10\nDid you know, that\nall potion effects are\nunique and don't stack?=给冒险家的提示5/10\n你知道吗\n所有药水效果都是\n独特且不能叠加？
 Tips For Adventurers 6/10\nDid you know, locked cellars are probably\na hidden stash of somebody?\nYou better prepare 2 keys in\ncase they were extra careful about\nlocking their stuff away!=给冒险家的提示 6/10\n你知道吗，上锁的地窖可能是\n某人隐藏的藏匿处？\n你最好准备两把钥匙，以防\n他们特别小心\n把他们的东西锁起来！
 Tips For Adventurers 7/10\nDid you know, purple projectiles\nwill curse you with a random curse!\nAlso, green projectiles often inflict poison.=冒险家小贴士7/10\n你知道吗，紫色射弹\n会随机诅咒你！\n此外，绿色射弹通常会造成中毒。
@@ -4817,7 +4817,7 @@ What do you wish for?=你想要什么？
 What gives me the right\nto sell these ancient texts?=是什么让我有权\n出售这些古老的文本？
 What is it, little rogue?=这是什么，小流氓？
 What to do\nwith this frog?=该怎么处理\n这只青蛙？
-When Explode Blood Altar Reward Pool=爆血祭坛奖励池时
+When Explode Blood Altar Reward Pool=爆血神龛奖励池时
 When Explode Blood Chest Reward Pool=爆血宝箱奖励池时
 When Explode Chest Reward Pool=宝箱奖励池爆炸时
 When Explode Cursed Shrine Reward Pool=诅咒神殿奖励池爆炸时
@@ -7911,7 +7911,7 @@ Gold Prices in Shops under <color\=#00E317>10</color> are reduced to <color\=#00
 Soul  Prices in Shops under <color\=#00E317>5</color> are reduced to <color\=#00E317>1</color>.=<color\=#5ECCE3>灵魂</color><sprite name\="Soul">价格低于<color\=#00E61A>5</color>的商品降至<color\=#00E61A>1</color>。
 Gain <color\=#00E317>+1</color> Flask<sprite name\="Flask">.=获得<color\=#00E61A>+1</color><color\=#FFFFFF>血瓶</color><sprite name\="Flask">。
 Gain <color\=#00E317>+25%</color> Flask Drink Speed<sprite name\="Flask">.=获得<color\=#00E61A>+25%</color><color\=#FFFFFF>血瓶</color>使用速度<sprite name\="Flask">。
-Blood Chests and Blood Altars are <color\=#00E317>x1.30</color> more common.=鲜血箱和鲜血祭坛出现概率<color\=#00E61A>x1.30</color>倍。
+Blood Chests and Blood Altars are <color\=#00E317>x1.30</color> more common.=鲜血箱和鲜血神龛出现概率<color\=#00E61A>x1.30</color>倍。
 You start with <color\=#00E317>+5</color> <color\=#FFEB04>EXP</color> but every Level takes <color\=#00E317>+1</color> <color\=#FFEB04>EXP</color> to achieve.=你开局拥有<color\=#00E61A>+5</color><color\=#FFFFFF>经验</color>，但是每次升级需要的<color\=#FFFFFF>经验</color><color\=#00E61A>+1</color>。
 Your first <color\=#A61FFF>Trait</color> Selection always offers <color\=#00E317>4</color> Choices.=你第一次<color\=#A61FFF>特性</color>选择总是有<color\=#00E61A>4</color>个选项。
 Gain [[+1]] Trait Reroll\non Level 1.=在等级<color\=#00E61A>1</color>时获得<color\=#00E61A>+1</color><color\=#A61FFF>特性</color>roll次数。
@@ -8284,9 +8284,9 @@ Bargain Hunter=羊毛党
 Beyond Tomorrow=超越明日
 Blacksmith=铁匠
 Blacksmiths sell\nRepair Powder for 5 Gold.=铁匠会出售修复粉，\n售价<color\=#00E317>5</color><color\=#FCC926>金币</color><sprite name\="Gold">。
-Blood Altar=鲜血祭坛
+Blood Altar=鲜血神龛
 Blood Chest=鲜血宝箱
-Blood Chests and\nBlood Altars are \n[[x1.30]] more //common.=血宝箱和\n血祭坛的出现概率\n提高至 [[x1.30]]。
+Blood Chests and\nBlood Altars are \n[[x1.30]] more //common.=血宝箱和\n血神龛的出现概率\n提高至 [[x1.30]]。
 Bomb Enchanted=炸弹附魔
 Bombs=炸弹
 Boom! Boom! Boom!=轰！轰！轰！
@@ -9734,3 +9734,5 @@ Pulse Pistol=脉冲手枪
 Jack-o'-Lantern=南瓜灯
 JACK-O'-LANTERN=南瓜灯
 Coward's Ring=懦夫戒指
+Dragon Shield=龙盾牌
+Sands of Time=时之沙
