@@ -502,7 +502,7 @@
 (*)<i>Inflicts (x0) stacks of Shock at once per Upgrade Level.=(*)<i>每个升级等级一次造成 (x0) 层电击。
 (*)<i>Inflicts [[5]] stacks of Poison at once with Critical Hits<Crit>.</i>=(*)<i>暴击时，一次性施加 [[5]] 层中毒<Crit>。</i>
 (*)<i>Inflicts [[all]] stacks of Armor Break at once.</i>=(*)<i>立即造成 [[all]] 堆叠破甲。</i>
-(*)<i>Lightning Damage from Skills and Auras inflicts Zap.</i>=(*)<i>技能和光环造成的闪电伤害造成电击。</i>
+(*)<i>Lightning Damage from Skills and Auras inflicts Zap.</i>=(*)<i>技能和光环造成的闪电伤害造成触电。</i>
 (*)<i>Lucky Hits<sprite name\="Luck"> with Attacks, add [[+1]] to your Tally Effects.</i>=(*)<i>幸运一击<sprite name\="Luck">与攻击，将[[+1]]添加到你的计数效果中。</i>
 (*)<i>Melee Attacks from you and=(*)<i>来自你和
 (*)<i>Melee Attacks grant [[5]] stacks.</i>=(*)<i>近战攻击获得[[5]]堆叠。</i>
@@ -709,7 +709,7 @@
 (*)Your Crystal Damage inflicts Vulnerability.=(*)你的水晶伤害会造成虚弱。
 (*)Your Fire damage inflicts Scorch.=(*)你的火焰伤害会造成烧焦。
 (*)Your Hearts<Heart> count as Soul Hearts<Soul_Heart>.=(*)你的<color\=#FF3326>心</color><sprite name\="Heart">算作魂心<Soul_Heart>。
-(*)Your Lightning damage inflicts Zap.=(*)你的闪电伤害会造成电击。
+(*)Your Lightning damage inflicts Zap.=(*)你的闪电伤害会造成触电。
 (*)Your Melee Attacks inflict Armor Break.=(*)你的近战攻击造成破甲。
 (*)Your Melee Damage inflicts Scorch on Hit.=(*)你的近战伤害击中时造成焦灼。
 (*)Your Weapon [[also]] counts as Two-Handed.=(*)你的武器[[<color\=#00e317>同样</color>]]算作双手。
@@ -8995,7 +8995,7 @@ confirm=确认
 every =每
 to=至
 •Charge Time:=•蓄力时间：
-•Fire Damage from Skills and Auras inflicts Scorch.\n•Cold Damage from Skills and Auras inflicts Frostbite.\n•Lightning Damage from Skills and Auras inflicts Zap.=•<indent\=7px><color\=#FF3326>火焰伤害</color>由<color\=#A61FFF>技能</color>或<color\=#A61FFF>光环</color>造成时会施加<color\=#DF7126>灼烧</color>。</indent>\n•<indent\=7px><color\=#639CFF>冰冷伤害</color>由<color\=#A61FFF>技能</color>或<color\=#A61FFF>光环</color>造成时会施加<color\=#6299FC>冻伤</color>。</indent>\n•<indent\=7px><color\=#FFE63D>闪电伤害</color>由<color\=#A61FFF>技能</color>或<color\=#A61FFF>光环</color>造成时会施加<color\=#5FCDE4>电击</color>。</indent>
+•Fire Damage from Skills and Auras inflicts Scorch.\n•Cold Damage from Skills and Auras inflicts Frostbite.\n•Lightning Damage from Skills and Auras inflicts Zap.=•<indent\=7px><color\=#FF3326>火焰伤害</color>由<color\=#A61FFF>技能</color>或<color\=#A61FFF>光环</color>造成时会施加<color\=#DF7126>灼烧</color>。</indent>\n•<indent\=7px><color\=#639CFF>冰冷伤害</color>由<color\=#A61FFF>技能</color>或<color\=#A61FFF>光环</color>造成时会施加<color\=#6299FC>冻伤</color>。</indent>\n•<indent\=7px><color\=#FFE63D>闪电伤害</color>由<color\=#A61FFF>技能</color>或<color\=#A61FFF>光环</color>造成时会施加<color\=#5FCDE4>触电</color>。</indent>
 •Gain +50% Stamina Recovery Speed.\n•On Dash, your next 5 Attacks or Skills deal guaranteed Crushing Hits.=•<indent\=7px>获得<color\=#00E61A>+50%</color><color\=#6BBD30>精力回复速度</color><sprite name\="Stamina">。</indent>\n•<indent\=7px><color\=#A61FFF>冲刺时</color>，接下来的<color\=#00E317>5</color>次<color\=#A61FFF>攻击</color>或<color\=#A61FFF>技能</color>必定造成<color\=#EBD67D>粉碎一击</color><sprite name\="Crushing_Hit">。</indent>
 •Grants +100% Orbital Range.\n•Your Orbitals inflict Vulnerability.=•<indent\=7px>获得<color\=#00E61A>+100%</color><color\=#A61FFF>环绕物</color>射程。</indent>\n•<indent\=7px>你的环绕物会施加<color\=#76428A>虚弱</color>。</indent>
 •Mana Cost:=•法力消耗：
