@@ -73,3 +73,5 @@ Desktop.ini
 # ---- 纯净版切换脚本 ----
 /switch_pure.bat
 /restore_test.bat
+/capture_en.bat
+/capture_restore.bat
