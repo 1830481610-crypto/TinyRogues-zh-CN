@@ -9736,3 +9736,4 @@ JACK-O'-LANTERN=南瓜灯
 Coward's Ring=懦夫戒指
 Dragon Shield=龙盾牌
 Sands of Time=时之沙
+(*)(+x0%x1) Damage per Ailment on the Enemy=(*)每有一个敌人身上的异常状态，造成的伤害 (+x0%x1)
