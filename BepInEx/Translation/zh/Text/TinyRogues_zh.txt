@@ -5339,6 +5339,7 @@ Summon Lich=召唤巫妖
 Revolver=左轮
 Fey Lute=仙灵琴
 Crossbow=弩
+Auto Crossbow=自动弩
 Wooden Boomerang=木质回旋镖
 <color\=#808080>Pyromancer Coat</color>=<color\=#808080>火法师外套</color>
 Fireball Wand=火球魔杖
