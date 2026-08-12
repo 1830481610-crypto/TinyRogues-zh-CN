@@ -9731,3 +9731,5 @@ Disk Launcher=圆盘发射器
 Sniper Rifle=狙击步枪
 Pulse Pistol=脉冲手枪
 <color\=#FF0000>Defense Laser</color><color\=#808080>\n•Damage Scaling: <color\=#FF2666>B</color><color\=#808080> | </color><color\=#26FF66>-</color><color\=#808080> | </color><color\=#26B0FF>A</color></color>\n<color\=#808080>[<color\=#A61FFF><color\=#A61FFF>Trigger</color></color>]</color>=<line-height=95%><size=60%><color=#FF0000>防御射线</color><color=#808080>\n•属性加成: <color=#FF2666>B</color><color=#808080> | </color><color=#26FF66>-</color><color=#808080> | </color><color=#26B0FF>A</color></color>\n<color=#808080>[<color=#A61FFF><color=#A61FFF>触发</color></color>]</color></size>
+Jack-o'-Lantern=南瓜灯
+JACK-O'-LANTERN=南瓜灯
